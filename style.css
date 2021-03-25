@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1
 }
-.main-section-add-wrapper {
+.new-task-wrapper {
   display: flex;
 }
 ul {
@@ -58,7 +58,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for="main-section-add-task"] {
+label[for="add-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -84,11 +84,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="main-section-add-task"] {
+label[for="add-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#main-section-add-task {
+input#add-task {
   width: 318px;
 }
 p > button:hover {
