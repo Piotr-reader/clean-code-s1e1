@@ -4,7 +4,7 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
-.header {
+header {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -22,7 +22,7 @@ body {
     text-align: center;
   }
 }
-.wrapper {
+main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
